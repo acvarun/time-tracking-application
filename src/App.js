@@ -21,7 +21,6 @@ function App() {
   return (
     <div id='body'>
         <div id="project-body">
-          <div>Projects</div>
 
           <form onSubmit={(e) => {
             e.preventDefault();
