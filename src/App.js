@@ -20,7 +20,6 @@ function App() {
 
   return (
     <div id='body'>
-        <div>Project Manager</div>
         <div id="project-body">
           <div>Projects</div>
 
