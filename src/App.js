@@ -72,10 +72,10 @@ function App() {
                   trackTime(index, time);
                   e.target.reset();
                 }}>
-                  <input type="number" name="time" placeholder="Time Spent (in minutes)" required />
+                  <input type="number" name="time" placeholder="Time Spent (in hrs)" required />
                   <button type="submit">Track Time</button>
                 </form>
-                <div className="task-time">Time Spent: {timeSpent[index] || 0} minutes</div>
+                <div className="task-time">Time Spent: {timeSpent[index] || 0} hrs</div>
               </div>
             ))}
           </div>
